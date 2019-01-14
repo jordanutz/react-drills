@@ -10,7 +10,6 @@ class App extends Component {
     }
   }
 
-
   render() {
 
     let displayedRoomies = this.state.roomies.map( (roomie, index) => {
