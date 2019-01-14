@@ -17,10 +17,7 @@ class App extends Component {
     })
   }
 
-
   render() {
-
-
     let filteredFriends = this.state.people.filter( (person, index) => {
       return person.includes(this.state.input)
     }).map( (person, index) => {
